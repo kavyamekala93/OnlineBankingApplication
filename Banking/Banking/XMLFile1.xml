@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Images/8371_bsbda.jpg</ImageUrl>
+    <AlternateText>Savings</AlternateText>
+    <Impressions>10</Impressions>
+    <KeyWord>Savings</KeyWord>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/fast-and-guranteed.jpg</ImageUrl>
+    <AlternateText>fast-and-guranteed</AlternateText>
+    <Impressions>30</Impressions>
+    <KeyWord>fast-and-guranteed</KeyWord>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/ICICI_Image.jpg</ImageUrl>
+    <AlternateText>Zero</AlternateText>
+    <Impressions>28</Impressions>
+    <KeyWord>Zero</KeyWord>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/interest.png</ImageUrl>
+    <AlternateText>interest</AlternateText>
+    <Impressions>20</Impressions>
+    <KeyWord>interest</KeyWord>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Money-Transfer_33807311.jpg</ImageUrl>
+    <AlternateText>Money-Transfer</AlternateText>
+    <Impressions>50</Impressions>
+    <KeyWord>Money-Transfer</KeyWord>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/account.png</ImageUrl>
+    <AlternateText>account</AlternateText>
+    <Impressions>80</Impressions>
+    <KeyWord>account</KeyWord>
+  </Ad>
+</Advertisements>
+

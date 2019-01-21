@@ -1,0 +1,145 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Banking.Site1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head id="Head1" runat="server">
+<link href="Master.css" rel="stylesheet" type="text/css" />
+   
+   
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="JScript1.js" type="text/javascript"></script>
+
+    <title></title>
+    <%--<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>--%>
+   <%-- <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            margin-bottom: 0px;
+        }
+        .style2
+        {
+            width: 99%;
+        }
+        .style5
+        {
+            width: 65%;
+            margin-right: 0px;
+        }
+        .style11
+        {
+            width: 203px;
+        }
+        .style12
+        {
+            width: 600px;
+        }
+        #form1
+        {
+            background-color: #6600FF;
+        }
+        .style16
+        {
+           width : 1300px;
+            
+        }
+        </style>--%>
+
+<body>
+    <form id="form1" runat="server"
+    style="background-color:#6600FF">
+   
+        
+            
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                    </asp:SiteMapPath>
+        
+            <table>
+                    <asp:Image ID="Image1" runat="server" AlternateText="Home" BorderStyle="Solid" 
+                        Height="156px" ImageUrl="~/Images/index.jpg" Width=100% />
+                        </table>
+              
+       
+        <table style="width:100%; height:60px; background-color:#005555">
+        <tr>
+            <td >
+              <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/bank-icon-256x256.png" 
+                style="margin-left: 50px; text-align: left; height:90px"/></td>
+               <td><h1> 
+                   <asp:Label ID="IBM" runat="server" 
+                style="font-family: ARIAL; font-size:larger; font-weight: bolder; font-style: normal; margin-left: 200px; color: #FFFFFF; text-align: justify;" 
+               Text="BLUE BANK "></asp:Label></h1></td>
+                
+                 <td><asp:ImageButton ID="ImageButton2" runat="server" 
+                            ImageUrl="~/Images/login.jpg" 
+                    style="text-align: right; margin-left: 500px" onclick="ImageButton2_Click" 
+                    Width="100px" /></td>
+               
+        </tr>
+    </table>
+        
+       
+        
+    
+      
+   <%-- <table style="width: 100%; height: 50px; margin-left: 100px">
+                <tr>
+                    <td class="style16">
+                        <div class="drop">
+                            <ul class="drop_menu">
+                                <li><a href="ChkBal.aspx">CHECK BALANCE</a> </li>
+                                
+                                        <li><a href= "Deposit.aspx">DEPOSIT</a></li>
+                                        <li><a href="Withdraw.aspx">WITHDRAWAL</a></li>
+                                        <li><a href="TransferMoney.aspx">TRANSFER</a></li>
+                                        <li><a href="Statement.aspx">TRANSACTION</a></li>
+                                 
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+    --%>
+  
+    
+    
+    
+  
+    
+    
+  <%--  <table class="style5">
+        <tr>
+           
+        </tr>
+    </table>--%>
+       
+    
+       
+    <table class="style2">
+        <tr>
+            <td class="style11">
+                <asp:AdRotator ID="AdRotator1" runat="server" 
+                    AdvertisementFile="~/XMLFile1.xml" Height="600px" Target = "_blank" Width="300px" />
+            </td>
+            <td class="width:766px">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                 </asp:ContentPlaceHolder>
+    
+                </td>
+            <td>
+                <asp:AdRotator ID="AdRotator2" runat="server" 
+                    AdvertisementFile="~/XMLFile1.xml" Height="600px" Target = "_blank" Width="300px"/>
+            </td>
+        </tr>
+    </table>
+       
+    
+       
+  </form>  
+</body>
+</head>
+</html>

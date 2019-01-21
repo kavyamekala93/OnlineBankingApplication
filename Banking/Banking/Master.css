@@ -1,0 +1,111 @@
+﻿ body
+    {
+    width: 100%;
+    background-color: #5f9ea0;
+    }
+ 
+        img
+ {
+            margin-top: 0px;
+            margin-left: 0px;
+            }
+        .style2
+        {
+            width: 100%;
+        }
+        .style4
+        {
+            width: 334px;
+        }
+        .style5
+        {
+            width: 385px;
+        }
+        .style6
+        {
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+            font-size: medium;
+        }
+        .style7
+        {
+            color: #FFFFFF;
+        }
+        .style9
+        {
+            font-family: "Comic Sans MS";
+            font-size: xx-large;
+        }
+        .style10
+        {
+            font-family: IBM3270;
+            font-size: xx-large;
+        }
+        .style11
+        {
+            font-family: "Gentium Basic";
+            font-size: xx-large;
+            color: #008B8B;
+        }
+        .style12
+        {
+            width: 120px;
+        }
+        .style14
+        {
+            width: 85px;
+        }
+        .style15
+        {
+            width: 675px;
+        }
+        
+        
+.drop_menu {
+	background:#005555;
+	padding:0;
+	margin:0 0 19px 0;
+	list-style-type:none;
+	 text-align: center;
+            font-family: "Times New Roman", Times, serif;
+            font-size: xx-large;
+	height:51px;
+    width: 82px;
+}
+.drop_menu li { float:left;
+    width: 324px;
+    height: 44px;
+}
+.drop_menu li a {
+	padding:9px 20px;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	font:12px arial, verdana, sans-serif;
+    height: 40px;
+    width: 601px;
+}
+
+/* Submenu */
+.drop_menu ul {
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+}
+.drop_menu li:hover { position:relative; background:#5FD367; }
+.drop_menu li:hover ul {
+	left:0px;
+	top:30px;
+	background:#5FD367;
+	padding:0px;
+}
+
+.drop_menu li:hover ul li a {
+	padding:5px;
+	display:block;
+	width:168px;
+	text-indent:15px;
+	background-color:#5FD367;
+}
+.drop_menu li:hover ul li a:hover { background:#005555; }
